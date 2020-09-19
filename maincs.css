@@ -34,7 +34,7 @@
     margin: 2%;
 }
 
-.form-info button{
+.form-info .addDetails input{
     background: rgb(172, 55, 55);
     color:white;
     align-self: center;
@@ -56,8 +56,11 @@
 
 .dynamic-form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 8.5pt;
     text-align: center;
+}
+
+.dynamic-form p{
+    font-size:8.5pt;
 }
 
 

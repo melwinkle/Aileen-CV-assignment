@@ -2,6 +2,7 @@
     <head >
         <title>CV Form</title>
         <link rel="stylesheet" href="maincs.css">
+       
         
     </head>
     <body style="background-color:snow;">
@@ -13,18 +14,18 @@
         </div>
         
         <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">INPUT YOUR DETAILS</h2>
-        <form id="InfoForm" class="form-info" method="POST" >
+        <form  class="form-info" method="POST" action="profile.html" >
             <div class="form-field" >
                 <label for="fname" >First Name </label><br>
-                <input type="text" id="fname" name="first"  placeholder="First Name"><br>
+                <input type="text" id="f_name" name="first"  placeholder="First Name"><br>
             </div>
             <div class="form-field" >
                 <label for="mname" >Middle Name</label><br>
-                <input type="text" id="mname" name="middle"  placeholder="Middle Name"><br>
+                <input type="text" id="m_name" name="middle"  placeholder="Middle Name"><br>
             </div>
             <div class="form-field" >
                 <label for="lname" >Last Name</label><br>
-                <input type="text" id="lname" name="last"  placeholder="Last Name"><br>
+                <input type="text" id="l_name" name="last"  placeholder="Last Name"><br>
             </div>
             <div class="form-field" >
                 <label for="gender">Gender</label><br>          
@@ -37,18 +38,20 @@
             </div>
             <div class="form-field" >
                 <label for="number" >Phone Number</label><br>
-                <input type="tel" id="number" name="phone"  placeholder="Phone Number"><br>
+                <input type="tel" id="mynumber" name="phone"  placeholder="Phone Number"><br>
             </div>
             <div class="form-field" >
                 <label for="email" >Email</label><br>
-                <input type="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh"><br>
+                <input type="email" id="mymail" name="email"  placeholder="studentname@ahesi.edu.gh"><br>
             </div>
             <div class="form-field" >
                 <label for="address" >Address</label><br>
-                <input type="text" id="address" name="address"  placeholder="Address"><br>
+                <input type="text" id="myaddress" name="address"  placeholder="Address"><br>
             </div>
-            <button id="addDetails "  type="button" value="add" onclick="onSubmit();" >Submit</button>
+            
+            <input id="details "  type="submit" value="Submit" onclick="onSubmit()" ></input>
+            <script type="text/javascript" src="cv.js"></script>
         </form>
-    
+       
    </body>
 </html>
