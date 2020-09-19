@@ -2,6 +2,7 @@
     <head >
         <title>CV Form</title>
         <link rel="stylesheet" href="maincs.css">
+        
     </head>
     <body style="background-color:snow;">
         <div class="header">
@@ -12,18 +13,18 @@
         </div>
         
         <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">INPUT YOUR DETAILS</h2>
-        <form id="InfoForm" class="form-info" method="post">
+        <form id="InfoForm" class="form-info" method="POST" >
             <div class="form-field" >
                 <label for="fname" >First Name </label><br>
-                <input type="text" id="fname" name="fname"  placeholder="First Name"><br>
+                <input type="text" id="fname" name="first"  placeholder="First Name"><br>
             </div>
             <div class="form-field" >
                 <label for="mname" >Middle Name</label><br>
-                <input type="text" id="mname" name="mname"  placeholder="Middle Name"><br>
+                <input type="text" id="mname" name="middle"  placeholder="Middle Name"><br>
             </div>
             <div class="form-field" >
                 <label for="lname" >Last Name</label><br>
-                <input type="text" id="lname" name="lname"  placeholder="Last Name"><br>
+                <input type="text" id="lname" name="last"  placeholder="Last Name"><br>
             </div>
             <div class="form-field" >
                 <label for="gender">Gender</label><br>          
@@ -36,7 +37,7 @@
             </div>
             <div class="form-field" >
                 <label for="number" >Phone Number</label><br>
-                <input type="tel" id="number" name="number"  placeholder="Phone Number"><br>
+                <input type="tel" id="number" name="phone"  placeholder="Phone Number"><br>
             </div>
             <div class="form-field" >
                 <label for="email" >Email</label><br>
@@ -46,7 +47,8 @@
                 <label for="address" >Address</label><br>
                 <input type="text" id="address" name="address"  placeholder="Address"><br>
             </div>
-            <button id="addDetails "  type="button" onclick="location.href='profile.html'">Submit</button>
+            <button id="addDetails "  type="button" value="add" onclick="onSubmit();" >Submit</button>
         </form>
+    
    </body>
 </html>

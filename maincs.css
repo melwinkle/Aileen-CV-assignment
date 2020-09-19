@@ -53,12 +53,7 @@
     margin: 2%;
 }
 
-.dynamic-name{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14pt;
-    text-align: center;
-    font-weight:bold;
-}
+
 .dynamic-form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8.5pt;
@@ -70,6 +65,35 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8.5pt;
     font-weight:bold;
+    padding:2px;
+}
+
+.fixed-form p{
+    font-weight:normal;
+}
+
+.fixed-form li{
+    list-style: none;
+    font-weight: normal;
+    padding:2px;
+    margin-left: -40;
+}
+.fixed-form .work{
+    list-style: circle;
+    list-style-image: solid black ;
+    margin-left: -30;
+    padding:0;
+    color: solid black;
+}
+
+
+.fixed-form .loc{
+   text-align: right;
+   margin-left: 20%;
+}
+
+.fixed-form .year{
+    text-align: right;
 }
 
 .Change{
